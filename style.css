@@ -1,7 +1,9 @@
 
+
 body{
     background-color: black;
     width: auto;
+    height: auto;
 
 
 }
@@ -10,7 +12,6 @@ body{
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    width: auto;
     
     
     
@@ -23,7 +24,7 @@ h1{
     color: white;
     text-decoration: none;
     margin: 20px;
-    width: auto;
+    
     
     
 
@@ -35,7 +36,7 @@ h1,#one{
     background-color:white;
     display: inline;
     margin-top: 10px;
-    width: auto;
+    font-size:2vw;
     
 
 }
