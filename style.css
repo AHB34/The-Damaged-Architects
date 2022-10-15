@@ -64,7 +64,7 @@ h1,#one{
     }
 
     #menu{
-        display: inline;
+        display: block;
     }
 
     
