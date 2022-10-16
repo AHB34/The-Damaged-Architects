@@ -120,14 +120,10 @@ h1,#one{
     ul li ul li a {display:block !important;} 
     ul li ul li:hover {background: red;}
     
-        
-    
-
-
-    
-
-    
-    
-  
-    
 }
+
+@media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
