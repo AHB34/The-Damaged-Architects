@@ -76,13 +76,17 @@ h1,#one{
         display: none;
     }
 
-    #menu{
+   #menu{
         display: block;
         list-style: none;
     }
 
     #items{
         text-decoration: none;
+    }
+
+    #images{
+        margin-top: 20px;
     }
 
     div a {
