@@ -8,7 +8,7 @@ body{
 
 }
 
-#menu{
+#menu,#items{
     display: none;
 }
 
@@ -65,8 +65,46 @@ h1,#one{
 
     #menu{
         display: block;
+        list-style: none;
     }
 
+    #items{
+        text-decoration: none;
+    }
+
+    div a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        display:inline-block;
+      }
+
+
+
+    ul {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    ul li:hover {
+        max-width: fit-content;
+        background-color: white;
+    }
+    ul li:hover ul {display: block;}
+    ul li ul {
+        position: absolute;
+        width: 100px;
+        display: none;
+        
+    }
+
+    ul li ul li { 
+        background: white; 
+        display: block; 
+    }
     
-    
-}
+    ul li ul li a {display:block !important;} 
+    ul li ul li:hover {background: red;}
