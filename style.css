@@ -81,50 +81,80 @@ h1,#one{
         list-style: none;
     }
 
-    #items{
-        text-decoration: none;
-    }
-
-    #image{
-        margin-top: 20px;
-    }
-
-    div a {
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        display:inline-block;
-      }
-
-
-
-    ul {
-        display: inline;
-        margin: 0;
+     *{
         padding: 0;
+        margin: 0;
     }
-
-
-    ul li:hover {
-        max-width: fit-content;
+    
+    nav{
+        width: 99%; 
         background-color: white;
+    
     }
-    ul li:hover ul {display: block;}
-    ul li ul {
-        position: absolute;
-        width: 100px;
-        display: none;
+
+    nav ul{
+        float: left;
+    }
+
+    nav ul li {
+        float: left;
+        list-style: none;
+        position: relative;
         
     }
 
-    ul li ul li { 
-        background: white; 
-        display: block; 
+    nav ul li img{
+        width: 50px;
+        height: 50px;
+        background-color: white;
+    }
+
+    nav ul li a {
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        
+        
+    
+
+    }
+
+
+    nav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: white;
+        padding: 10px;
+        
     }
     
-    ul li ul li a {display:block !important;} 
-    ul li ul li:hover {background: red;}
-    
+    nav ul li:hover ul {
+        display: block;
+       
+    }
+
+
+    nav ul li ul li {
+        width: 120px;
+        margin-top: 10px;
+        
+        
+    }
+
+
+
+    nav ul li ul li a {
+        padding: 8px 14px;
+        text-decoration: none;
+        font-size:  40px;
+        font-size:  20px;
+        
+        
+    }
+
+    nav ul li ul li a:hover {
+        background-color:lightgray;
+        
+        
+    }
+
 }
-
-
